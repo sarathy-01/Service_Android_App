@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".Detail_tv">
+
+
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:background="@drawable/foursideshape"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:textSize="34sp"
+                android:textStyle="normal|bold"
+                android:padding="30dp"
+                />
+
+            <EditText
+
+                android:id="@+id/w_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="user name"
+                android:layout_marginTop="15dp"
+                />
+
+
+
+
+
+            <EditText
+                android:id="@+id/w_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="city"
+                android:layout_marginTop="15dp"
+                />
+            <EditText
+                android:id="@+id/w_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="mobile"
+                android:inputType="number" />
+
+
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#289FEC"
+
+                android:text="UPDATE" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
